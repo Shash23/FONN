@@ -1,0 +1,8 @@
+Differential Machine Learning for Time Series Prediction
+https://arxiv.org/html/2503.03302v1#bib.bib1
+
+AI Black Scholes: Finance-Informed NN
+https://arxiv.org/pdf/2412.12213
+
+micrograd
+https://github.com/karpathy/micrograd
