@@ -6,3 +6,6 @@ https://arxiv.org/pdf/2412.12213
 
 micrograd
 https://github.com/karpathy/micrograd
+
+
+https://docs.pytorch.org/docs/stable/nn.html

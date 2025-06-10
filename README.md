@@ -1,1 +1,3 @@
-# finance-optimized neural network
+# options pricing neural network
+
+
