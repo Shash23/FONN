@@ -14,7 +14,7 @@ i. input/output specifications
 
 =>
  
-- predicted european call/put option price C(S, K, T)
+- predicted call/put option price C(S, K, T)
 
 
 ii. network design
