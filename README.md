@@ -1,6 +1,6 @@
 # options pricing neural network
 
-summary of the paper
+## High Level Model Implementation
 
 i. input/output specifications
 
@@ -56,7 +56,31 @@ iv. loss terms and training schedules
         - Batch Size: Variable often 64-256
         - Early Stopping based on validation loss
 
-    
+https://docs.pytorch.org/docs/stable/generated/torch.ones_like.html
+
+ones_like is mad unserious but lowk cold:
+torch.ones_like(input) = torch.ones(input.size(), dtype=input.dtype, layout=input.layout device=input.device)
+
+## Materials of Reference
+
+Refresher on Neural Net Architecture
+micrograd
+https://github.com/karpathy/micrograd
+
+This is the paper I am loosely implementing
+AI Black Scholes: Finance-Informed NN
+https://arxiv.org/pdf/2412.12213
+
+** `Math Fundamentals` **
+
+Test for Monotincity
+https://www.youtube.com/watch?v=fiCwhsk3PVM
+- This is for testing that call prices SHOULD increase and be convex with S
+
+
+
+
+
 
 
 
