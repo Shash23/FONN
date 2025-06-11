@@ -1,5 +1,9 @@
 # options pricing neural network
 
+repo is currently in progress
+
+access model_dev.ipynb for research
+
 ## High Level Model Implementation
 
 i. input/output specifications
