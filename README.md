@@ -1,8 +1,8 @@
-# Option Pricer Neural Network
+# Deep Learning for Options Trading: Neural Network Price Prediction
 
 Neural Network for Black Scholes Options Pricing
 
-This project loosely implements the **Finance-Informed Neural Network (FINN)** proposed by Prof. Amine Mohamed Aboussalah et. al. with components from other papers. FINN is a hybrid approach to option pricing that integrates ML with finance principles. The model is designed to predict European call option prices adhering to the **Black-Scholes Partial Differential Equation** and key **financial boundary conditions**. 
+This project loosely implements the **Finance-Informed Neural Network (FINN)** proposed by Prof. Amine Mohamed Aboussalah et. al. with components from other papers. FINN is a hybrid approach to option pricing that integrates ML with finance principles. The model is designed to predict call option prices adhering to the **Black-Scholes Partial Differential Equation** and key **financial boundary conditions**. 
 
 All of the model development and experimentation can be found in the **`development/`** directory. The **`model-dev.ipynb`** notebook serves as a foundation for the core logic and fine-tuning. The finalized model can be found in **`model.py`**. For testing, the project uses manual data generation based on the Black-Scholes model to test the models ability to learn. Future steps include streaming orderbook data. 
 
